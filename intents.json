@@ -1,0 +1,269 @@
+{
+  "college": {
+    "name": "Shalaka Foundation Keystone School of Engineering",
+    "location": "Handewadi, Pune, Maharashtra",
+    "website": "https://www.keystone.ac.in/",
+    "timings": "8:00 AM to 3:00 PM (provided by the project owner; verify with the college)",
+    "contact_phone": "+91 9922887755",
+    "contact_email": "admission@keystonesoe.in",
+    "fees_note": "Fee amounts can change and depend on course and eligibility. Confirm the final payable amount with the college.",
+    "fees": {
+      "Open": "₹1,16,650",
+      "OBC / EBC / EWS": "₹70,037",
+      "SC": "₹10,650",
+      "Girls / ST / NT / VJ / SBC": "₹23,423",
+      "TFWS": "₹23,423"
+    }
+  },
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "hello chatbot",
+        "hey there",
+        "hi college"
+      ],
+      "responses": [
+        "Hey! 👋 Welcome to Keystone AI. Ask me about courses, admissions, fees, departments or campus facilities."
+      ]
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "tell me about the college",
+        "what is the college name",
+        "give me college information",
+        "which college is this",
+        "about Keystone School of Engineering",
+        "tell me about Keystone",
+        "what is the full name of the college"
+      ],
+      "responses": [
+        "This is Shalaka Foundation Keystone School of Engineering, located in Handewadi, Pune, Maharashtra. Explore the official website at https://www.keystone.ac.in/."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college",
+        "college address",
+        "how can I reach the college",
+        "where is Keystone located",
+        "tell me the college location",
+        "give me the Pune address",
+        "college near Handewadi"
+      ],
+      "responses": [
+        "📍 Keystone School of Engineering is in Handewadi, Pune, Maharashtra. Please check the official website for the latest directions: https://www.keystone.ac.in/."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "which courses are available",
+        "what courses does the college offer",
+        "list the engineering courses",
+        "do you offer BE",
+        "which degree programs are available",
+        "tell me about the courses",
+        "what can I study here",
+        "is engineering available"
+      ],
+      "responses": [
+        "The engineering branches provided for this project are Computer Engineering, Artificial Intelligence & Data Science, Electronics & Telecommunication (E&TC), and Mechanical Engineering. Please check the official website for current course availability."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "which departments are there",
+        "list all departments",
+        "does the college have AI and DS",
+        "is computer engineering available",
+        "is ENTC available",
+        "does the college have mechanical department",
+        "tell me the branches",
+        "what engineering branches are offered"
+      ],
+      "responses": [
+        "The departments/branches in our current information base are Computer Engineering, AI & Data Science, Electronics & Telecommunication (E&TC), and Mechanical Engineering."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "how can I get admission",
+        "tell me the admission process",
+        "how to apply for engineering",
+        "what is the admission procedure",
+        "how do I apply to Keystone",
+        "explain CAP admission",
+        "how can I take admission after 12th",
+        "what are the admission steps"
+      ],
+      "responses": [
+        "For engineering admission, the general process may include: 1) meet eligibility after 12th Science with PCM, 2) appear for MHT-CET or JEE Main as applicable, 3) register for Maharashtra CAP, 4) upload and verify documents, 5) fill the college option form, 6) check allotment, 7) accept the seat and report as instructed. Always follow the current-year official brochure at https://cetcell.mahacet.org/ and the college website."
+      ]
+    },
+    {
+      "tag": "entrance_exam",
+      "patterns": [
+        "which entrance exam is required",
+        "is MHT CET required",
+        "can I apply through JEE Main",
+        "which exam for engineering admission",
+        "what is MHT CET",
+        "do I need an entrance exam",
+        "entrance exam for BE"
+      ],
+      "responses": [
+        "MHT-CET and JEE Main may be relevant for engineering admission depending on the current admission rules and candidate eligibility. Check the latest Maharashtra CET Cell brochure: https://cetcell.mahacet.org/."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "what is the fee structure",
+        "how much are the college fees",
+        "tell me annual fees",
+        "fees for open category",
+        "fees for OBC students",
+        "fees for SC category",
+        "what is the TFWS fee",
+        "how much fee should I pay"
+      ],
+      "responses": [
+        "Annual fees currently entered in this project's information base: Open ₹1,16,650; OBC / EBC / EWS ₹70,037; SC ₹10,650; Girls / ST / NT / VJ / SBC ₹23,423; TFWS ₹23,423. These amounts must be confirmed for the relevant course and academic year before payment. Official website: https://www.keystone.ac.in/."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "what facilities are available",
+        "does the college have a library",
+        "is there a canteen",
+        "does the campus have wifi",
+        "are laboratories available",
+        "does the college have sports facilities",
+        "is transport available",
+        "tell me about campus facilities",
+        "is hostel available"
+      ],
+      "responses": [
+        "Facilities listed in our current information base include a library, laboratories, hostel, canteen, Wi-Fi, sports, transport and a placement cell. Please contact the college to confirm current availability, fees and rules for each facility."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "is there a library",
+        "tell me about the library",
+        "does the college have books",
+        "are digital resources available",
+        "library facilities"
+      ],
+      "responses": [
+        "The current project information says the college has a library. For library timings, digital resources and access rules, confirm with the college or visit https://www.keystone.ac.in/."
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "is hostel available",
+        "does the college provide hostel",
+        "hostel fees",
+        "where can students stay",
+        "tell me about hostel facilities"
+      ],
+      "responses": [
+        "Hostel is listed in the information provided for this project, but availability, fees, vacancies and rules should be confirmed directly with the college."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "does the college have placements",
+        "tell me about placement cell",
+        "placement facilities",
+        "are internships available",
+        "does college help with jobs",
+        "what about campus placement",
+        "is placement support available"
+      ],
+      "responses": [
+        "A placement cell is listed in the project information. For current placement statistics, recruiters, internships and branch-wise outcomes, check the official college website or contact the placement team."
+      ]
+    },
+    {
+      "tag": "timings",
+      "patterns": [
+        "what are college timings",
+        "when does college start",
+        "college opening time",
+        "what time does college end",
+        "daily college schedule",
+        "when do lectures begin"
+      ],
+      "responses": [
+        "The timings supplied for this project are 8:00 AM to 3:00 PM. Please verify the latest timetable with the college, as schedules can differ by course, year and day."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "how can I contact the college",
+        "give me college phone number",
+        "college email address",
+        "admission enquiry contact",
+        "how do I call admissions",
+        "official college website",
+        "contact details"
+      ],
+      "responses": [
+        "Official website: https://www.keystone.ac.in/\\nPhone listed in this project's reference notes: +91 9922887755\\nEmail listed in the reference notes: admission@keystonesoe.in\\nPlease verify current contact details on the official website."
+      ]
+    },
+    {
+      "tag": "mba_mca",
+      "patterns": [
+        "does the college offer MBA",
+        "is MBA available",
+        "courses after graduation",
+        "does Keystone have MCA",
+        "is MCA available",
+        "postgraduate courses available",
+        "MBA admission process"
+      ],
+      "responses": [
+        "MBA availability has not been confirmed in this project's current information base. Please check the latest programs list on https://www.keystone.ac.in/ or contact admissions before relying on this information."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "thank you bye",
+        "that's all",
+        "exit",
+        "talk to you later"
+      ],
+      "responses": [
+        "Thanks for chatting with Keystone AI! 💜 For the latest official information, visit https://www.keystone.ac.in/. Have a great day!"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I couldn't confidently match that question to an intent. Try asking about courses, admissions, fees, departments, facilities, placements, timings or contact details. For official confirmation, visit https://www.keystone.ac.in/."
+      ]
+    }
+  ]
+}
